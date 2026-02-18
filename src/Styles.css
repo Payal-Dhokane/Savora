@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+  color: #0a3d62;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+button {
+  background: linear-gradient(135deg, #0a3d62, #3c91e6);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #3c91e6;
+}
